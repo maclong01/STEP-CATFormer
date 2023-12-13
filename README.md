@@ -13,7 +13,7 @@ This repo is the official implementation for BMVC2023 paper ["STEP CATFormer: Sp
 
 ## Architecture of STEP CATFormer
 
-![teaser](figures/teaser.png)
+![teaser](STEPCATFormer.png)
 
 # Prerequisites
 
