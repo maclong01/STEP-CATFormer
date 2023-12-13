@@ -113,6 +113,6 @@ python ensemble.py --datasets ntu120/xsub --joint-dir work_dir/ntu120/csub/lst_j
 
 ## Acknowledgements
 
-This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN),[GAP](https://github.com/martinxm/gap). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch). The code for different modality is adopted from [InfoGCN](https://github.com/stnoah1/infogcn). The implementation for contrastive loss is adopted from [ActionCLIP](https://github.com/sallymmx/ActionCLIP).
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [GAP](https://github.com/martinxm/gap). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch). The code for different modality is adopted from [InfoGCN](https://github.com/stnoah1/infogcn). The implementation for contrastive loss is adopted from [ActionCLIP](https://github.com/sallymmx/ActionCLIP).
 
 Thanks to the original authors for their work!
