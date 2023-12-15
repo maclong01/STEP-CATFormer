@@ -115,4 +115,20 @@ python ensemble.py --datasets ntu120/xsub --joint-dir work_dir/ntu120/csub/lst_j
 
 This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [GAP](https://github.com/martinxm/gap). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch). The code for different modality is adopted from [InfoGCN](https://github.com/stnoah1/infogcn). The implementation for contrastive loss is adopted from [ActionCLIP](https://github.com/sallymmx/ActionCLIP).
 
+## Citation
+
+Please cite this work if you find it useful:
+````BibTeX
+ @article{balong2023stepcatformer,
+  title={STEP CATFormer: Spatial-Temporal Effective Body-Part Cross Attention Transformer for Skeleton-based Action Recognition},
+  author={Nguyen Huu Bao Long},
+  journal={arXiv preprint arXiv:2312.03288},
+  year={2023}
+}
+````
+
+# Contact
+For any questions, feel free to contact: `maclong01@gmail.com`
+
+
 Thanks to the original authors for their work!
