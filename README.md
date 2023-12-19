@@ -1,6 +1,6 @@
 # STEP-CATFormer
 
-This repo is the official implementation for BMVC2023 paper ["STEP CATFormer: Spatial-Temporal Effective Body-Part Cross Attention Transformer for Skeleton-based Action Recognition
+This repo is the official implementation for BMVC CVG 2023 paper ["STEP CATFormer: Spatial-Temporal Effective Body-Part Cross Attention Transformer for Skeleton-based Action Recognition
 "]([https://arxiv.org/abs/2208.05318](https://arxiv.org/abs/2312.03288))
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/step-catformer-spatial-temporal-effective/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=step-catformer-spatial-temporal-effective)
