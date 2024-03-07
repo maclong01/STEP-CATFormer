@@ -468,8 +468,8 @@ class Processor():
             
             # forward
             with torch.cuda.amp.autocast():
-                output , feature_dict, logit_scale, part_feature_list = self.model(data)
-                #output , output_ab, feature_dict, logit_scale, part_feature_list = self.model(data) output_ab
+                #output , feature_dict, logit_scale, part_feature_list = self.model(data)
+                output , output_ab, feature_dict, logit_scale, part_feature_list = self.model(data) 
                 label_g = gen_label(label)
                 label = label.long().cuda(self.output_device)
                 loss_te_list = []
@@ -510,11 +510,11 @@ class Processor():
                     
 ############## Loss
                 loss_ce1 = self.loss_ce(output, label)
-                #loss_ce2 = self.loss_ce(outputab, label)
+                loss_ce2 = self.loss_ce(outputab, label)
                 
 
-                #loss = loss_ce1 + loss_ce2 + self.arg.loss_alpha * sum(loss_te_list) / len(loss_te_list)
-                loss = loss_ce1 + self.arg.loss_alpha * sum(loss_te_list) / len(loss_te_list)
+                loss = loss_ce1 + loss_ce2 + self.arg.loss_alpha * sum(loss_te_list) / len(loss_te_list)
+                #loss = loss_ce1 + self.arg.loss_alpha * sum(loss_te_list) / len(loss_te_list)
 
             scaler.scale(loss).backward()
             scaler.step(self.optimizer)
